@@ -1,0 +1,109 @@
+.container {
+    width: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(190deg, #676767, #7bb2e2);
+    
+
+}
+
+#serbatoio {
+    background: url(Diapositiva1.PNG) no-repeat;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#livello {
+    width: 7px;
+    height: 351px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 90px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.schermo {
+    width: auto;
+    height: 70px;
+    margin-left: 720px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.pulsanti {
+    width: auto;
+    height: 20px;
+    margin-bottom: 400px;
+    margin-left: 129px;
+    position: fixed;
+}
+
+.valvola {
+    width: auto;
+    height: 10px;
+    margin-bottom: -350px;
+    margin-right: -135px;
+    position: fixed;
+}
+
+.avvisi {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 300px;
+    margin-left: 718px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(52, 38, 4);
+}
+
+button {
+
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209, 213, 219);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, #7bb2e2, #676767);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-right: 600px;
+    position: fixed;
+
+}
+
+.autore {
+    margin-right: 40em;
+    margin-top: 36em;
+    border: #676767;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+}
